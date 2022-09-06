@@ -1,5 +1,7 @@
 <br id="topo">
 
+<p align="center"> <img src="./Banner.png" /></p>
+
 <p align="center">
     <a href="#sobre">Sobre</a>  |     
     <a href="#final">Apresentação Final</a>
