@@ -1,6 +1,6 @@
 <br id="topo">
 
-<p align="center"> <img src="./Banner.png" /></p>
+<p align="center"> <img src="./BannerV2.1.png" /></p>
 
 <p align="center">
     <a href="#sobre">Sobre</a>  |     
