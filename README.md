@@ -24,4 +24,11 @@ A partir do desafio proposto do projeto interdisciplinar no 2º semestre do curs
 🚧: **Em andamento** 🚧
     
 
+## Referência
+
+ - [INSTITUTO NACIONAL DE PESQUISAS ESPACIAIS](https://queimadas.dgi.inpe.br/queimadas/portal)
+ 
+ ### APIs
+ - [ViaCEP](https://viacep.com.br/)
+
 → [Voltar ao topo](#topo)
