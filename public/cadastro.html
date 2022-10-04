@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/assets/css/cadastro.css">
+    <title>Login</title>
+</head>
+<body>
+    <section>
+        <form action="/" class="form" method="POST">
+            <div class="part1">
+                <h3>Formulário de cadastro</h3>
+                <div class="campo">
+                    <label class="label" for="Nome">Nome completo:</label>
+                    <input type="text" class="text-input val nome">
+                </div>    
+                
+                <div class="campo">
+                    <label class="label" for="Telefone">Telefone:</label>
+                    <input type="tel" class="text-input val telefone" placeholder="(xx) xxxxx-xxxx">
+                </div>
+                
+                <div class="campo">
+                    <label class="label" for="E-mail">E-mail:</label>
+                    <input type="email" class="text-input val email">
+                </div>
+                
+                <div class="campo">
+                    <label class="label" for="CPF">CPF:</label>
+                    <input type="text" class="text-input val cpf" oninput="maskCpf(this)" placeholder="xxx.xxx.xxx-xx">
+                </div>
+                
+                <div class="campo">
+                    <label class="label" for="Senha">Senha:</label>
+                    <input type="password" class="text-input val senha">
+                </div>
+                
+                <div class="campo">
+                    <label class="label" for="repSenha">Repetir senha:</label>
+                    <input type="password" class="text-input val repSenha">
+                </div>
+           </div>
+
+            <div class="part2">
+                <div class="campo">
+                    <label class="label" for="idade" >Idade:</label>
+                    <input type="date" class="text-input val idade">
+                </div>
+                
+                <div class="campo">
+                    <label class="label" for="CEP">CEP:</label>
+                    <input type="text" id="cep" oninput="maskCep(this)" class="text-input val" placeholder="xxxxx-xxx">
+                </div>
+
+                <div>
+                    <input class="rua" type="text" placeholder="Rua: " disabled>
+                </div>
+                <div>
+                    <input class="bairro" type="text" placeholder="Bairro: " disabled>
+                </div>
+                <div>
+                    <input class="cidade" type="text" placeholder="Cidade: " disabled>
+                </div>
+                <div>
+                    <input class="uf"   type="text" placeholder="UF: " disabled>
+                </div>
+
+                <div class="login">
+                    <button type="submit" class="btnSubmit">Cadastrar</button>
+                    <p class="logar"><a href="#" target="_blank">Entrar na conta</a></p>
+                </div>
+            </div>
+            
+            
+        </form>
+    </section>
+    <script src="/src/modules/js/cep.js"></script>
+    <script src="/src/modules/js/valCpf.js"></script>
+    <script src="/src/modules/js/cadastro.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: medium;
+}
+body{
+    background: #fff;
+}
+
+/*formulario*/
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 700px;
+    max-height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background: #fff;
+    overflow-y: auto;
+    box-shadow: 4px 4px 12px #38383a;
+    border-radius: 5px;
+}
+form .part1 div:nth-child(4){
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+form .part1 div:nth-child(7){
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+
+}
+
+.login{
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+label{
+    color: #f00;
+    padding-bottom: 3px;
+}
+/* inputs */
+.campo{
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    height: auto;
+    margin-top: 25px;
+}
+
+input{
+    height: 30px;
+    padding: 20px;
+    border: .5px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.idade{
+    width: 170px;
+}
+.part2{
+    margin-top: 19px;
+}
+#cep{
+    width: 150px;
+}
+.rua{
+    width: 300px;
+}
+.cidade{
+    width: 100px;
+}
+.uf{
+    width: 65px;
+}
+.uf, .cidade, .rua, .bairro{
+    margin-top: 15px;
+}
+
+/*button*/
+button{
+    width: 150px;
+    height: 35px;
+    margin-top: 20px;
+    background: rgb(57, 57, 230);
+    border-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+button:hover{
+    background: rgb(46, 46, 218);
+}
+
+
+.error-text{
+    color: #f00;
+    font-size: 11px;
+    margin-top: 5px;
+}
