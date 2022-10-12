@@ -7,13 +7,13 @@ const Home = () => {
     id="home"
   >
     <section className="flex  text-white">
-      <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl ">
+      <div className="container mx-auto flex flex-col items-center text-center">
         <h1 className="text-4xl font-bold leading-none sm:text-5xl">
           <span className="text-red-main">Sistema</span> para o <br />{" "}
           <span className="text-red-main">controle</span>
           <br />
-          de
-          <span className="text-red-main">queimadas</span>
+          de 
+          <span className="text-red-main"> queimadas</span>
         </h1>
         <p className="px-8 mt-8 mb-12 text-xl">
           Juntos, podemos mudar o mundo!
