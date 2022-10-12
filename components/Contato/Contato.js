@@ -9,7 +9,7 @@ const Contato = () => {
     <>
       <section className=" mt-24" id="contato">
       
-      <div className="  py-3 lg:px-32 px-10   lg:py-6 lg:pb-52 pb-32  ">
+      <div className=" md:px-16 px-4">
         <div className="flex lg:flex-row flex-col ">
           <div className="lg:w-1/2 w-full lg:mr-20 mr-0">
             <h1 className="text-4xl text-red-main font-bold mt-10 mb-6">
