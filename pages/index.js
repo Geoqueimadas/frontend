@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar/Navbar"
 import Formulario from "../components/Formulario/Formulario"
 import Grafico from "../components/Grafico/Grafico"
 import TextContent from "../components/TextContent/TextContent"
+import Contato from "../components/Contato/Contato"
+import Footer from "../components/Layout/Footer/Footer"
 
 function HomePage() {
   return (
@@ -13,6 +15,8 @@ function HomePage() {
   <Formulario/>
   <Grafico/>
   <TextContent/>
+  <Contato/>
+  <Footer/>
   </>
 
   )

@@ -9,10 +9,10 @@ const Grafico = () => {
         <h1 className="text-center text-red-main font-bold text-3xl mb-12">
           Índice de Queimadas
         </h1>
-        <div className="md:mt-32 mt-20 flex flex-col md:px-16 md:items-start items-center ">
+        <div className="md:mt-32 mt-20 flex flex-col md:px-16 px-4 ">
           <GraficoInfos />
 
-          <canvas id="myChart"></canvas>
+          <canvas  id="myChart"></canvas>
         
         </div>
         <p className="text-red-main mt-12 font-bold md:px-16 px-4 text-sm md:text-lg">
