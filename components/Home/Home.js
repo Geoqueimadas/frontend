@@ -33,9 +33,17 @@ const Home = () => {
               Vamos lá
             </button>
           </Link>
+          <Link
+            to="textContent"
+            spy={true}
+            smooth={true}
+            offset={20}
+            duration={700}
+          >
           <button className="px-8 py-3 m-2 text-lg border rounded text-white border-red-main">
             Leia mais
           </button>
+          </Link>
         </div>
       </div>
     </section>

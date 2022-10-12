@@ -1,6 +1,8 @@
 import Home from "../components/Home/Home"
 import Navbar from "../components/Navbar/Navbar"
 import Formulario from "../components/Formulario/Formulario"
+import Grafico from "../components/Grafico/Grafico"
+import TextContent from "../components/TextContent/TextContent"
 
 function HomePage() {
   return (
@@ -9,6 +11,8 @@ function HomePage() {
   <Navbar/>
   <Home/>
   <Formulario/>
+  <Grafico/>
+  <TextContent/>
   </>
 
   )
