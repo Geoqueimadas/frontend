@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div
-    className="h-screen bg-hero flex justify-center items-center"
+    className="h-full md:h-screen bg-hero flex justify-center items-center"
     id="home"
   >
     <section className="flex  text-white">
