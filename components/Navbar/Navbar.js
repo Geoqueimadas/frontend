@@ -35,7 +35,7 @@ const Navbar = () => {
             <Link
               className="md:hover:text-red-main transition 
             ease-out duration-500"
-              href="contato"
+              href="Cadastro/"
             >
               <button
                 className="md:px-5 md:py-2 md:m-2 md:text-lg md:font-semibold md:rounded md:bg-red-main text-white md:hover:bg-black transition 

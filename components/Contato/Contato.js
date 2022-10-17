@@ -64,7 +64,7 @@ const Contato = () => {
                 type="submit"
                 href=""
                 name="Enviar"
-                customClass="mt-6"
+                customClass="mt-6 text-white"
               />
             </form>
           </div>

@@ -18,7 +18,7 @@ const Formulario = () => {
                 <LabelForm customClass="text-white mb-3" name="Nome" />
                 <InputForm
                   type="text"
-                  customClass="rounded-lg p-3 focus:outline-none placeholder:text-blue-300"
+                  customClass="rounded-lg p-3 focus:outline-none placeholder:text-red-main"
                 />
               </div>
 
