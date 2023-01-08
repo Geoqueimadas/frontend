@@ -12,7 +12,7 @@ import { useState, useEffect } from "react";
 import { validationSchema } from "./validationSchema";
 import axios from "axios";
 
-Geocode.setApiKey("AIzaSyAPLxFQeSE4KUKHXE3GDzeDi7EjfSi79CQ");
+Geocode.setApiKey(KEY);
 
 const Formulario = () => {
   const [submit, setSubmit] = useState(false);
